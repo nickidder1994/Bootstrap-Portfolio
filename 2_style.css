@@ -4,8 +4,8 @@ form {
 }
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #4aaaa5;
-    color:  #ffffff;
+    background-color: #ffffff;
+    color:  #4aaaa5;
     display: inline;
     font-size: 50px;
     border-bottom: solid 2px #cccccc;
@@ -20,7 +20,7 @@ h1 {
       .container {
         border:solid 2px #dddddd;
         width: 300px;
-        height: 500px;
+        height: 550px;
         clear: left;
         background-color: #ffffff;
         font-display: #777777
@@ -52,8 +52,7 @@ h1 {
                 box-sizing: border-box;
               }
               .navbar {
-                background-color: #f8f8f8;  
+                border-bottom: outset;
+                background-color: #ffffff; 
               }
-              .header {
-                  display: inline;
-              }
+              

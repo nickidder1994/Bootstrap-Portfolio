@@ -11,7 +11,7 @@
     <title>Nick Kidder</title>
 </head>
 
-<body>
+<body background="./images/floor-tile.png">
     <div class="row-md-4">
         <div class="col">
             <h1>Nicholas Kidder</h1>
@@ -19,7 +19,7 @@
     </div>
     <div class="row-md-4">
         <div class="col-md-6">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-sm navbar-light">
                 <a class="navbar-brand" href="#"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +40,7 @@
             <h2>Contact</h2>
             <div class="col-md-4">
             </div>
-            <div class="row-md-6">
+            <div class="row">
                 <div class="col-md-4">
                     <form action="/action_page.php">
                         <label for="fname">First Name</label>
@@ -48,21 +48,23 @@
                     </form>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <form>
+                        <label for="lname">Email</label>
+                        <input type="text" id="lname" name="email" placeholder="Your email..">
+                    </form>
+                </div>
             </div>
-            <div class="row-md-6">
+        </div>
+        <div class="row">
+            <div class="col-md-4">
                 <form>
-                    <label for="lname">Email</label>
-                    <input type="text" id="lname" name="email" placeholder="Your email..">
+                    <label for="lname">Phone Number</label>
+                    <input type="text" id="lname" name="phone number" placeholder="Your phone number..">
                 </form>
             </div>
         </div>
-        <form>
-            <label for="lname">Phone Number</label>
-            <input type="text" id="lname" name="phone number" placeholder="Your phone number..">
-        </form>
-
-
         <form>
             <textarea>Message...</textarea>
         </form>
