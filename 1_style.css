@@ -2,14 +2,14 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #ffffff;
     color: #4aaaa5;
-    display: inline;
     font-size: 50px;
     border-bottom: solid 2px #cccccc;
-    background-size: 90px;
+    background-size: 600px;
     } 
     .navbar {
         border-bottom: outset;
         background-color: #ffffff;
+        
       }
       h2 {
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -35,4 +35,11 @@ h1 {
         img {
           width: 200px;
           height: 250px;
+          margin: 10px;
+        }
+        p {
+        display: inline;
+        }
+        .navbar {
+          display: inline;
         }
